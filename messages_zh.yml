@@ -1,0 +1,88 @@
+# 
+# This is the messsages file.
+# You can change any messages that are in this file
+# 
+# If you want to reset a message back to the default,
+# delete the entire line the message is on and restart the server.
+# 	
+Prefix: '&9&lAParkour &l&o&f>>&r'
+Commands:
+  NoPerms: '%prefix% &c你没有使用此命令的权限!'
+  NoStats: '%prefix% &c你现在还没有任何数据!'
+  NoParkours: '%prefix% &c现在还没有已经创建的跑酷!'
+  Reload: '%prefix% &a插件重载成功!'
+GUIs:
+  Stats:
+    title: 跑酷数据
+  Play:
+    title: 开始跑酷
+  Config:
+    title: '%parkour% | 配置'
+  WalkableBlocks:
+    title: '%parkour% | 方块'
+  Rewards:
+    title: '%parkour% | 奖励'
+  Checkpoints:
+    title: '%parkour% | 检查点'
+  Holograms:
+    title: '%parkour% | 全息'
+  Titles:
+    title: '%parkour% | 标题'
+  Misc:
+    title: '%parkour% | 杂项'
+Times:
+  Loading: '&c加载中...'
+  NoBestTime: N/A
+Timer:
+  ActionBar: '&e&l当前成绩: &6%currentTime% &7- &e&l最佳成绩: &6%bestTime%'
+  Formats:
+    PlayerTime: '%minutes%m %seconds%s %milliseconds%ms'
+    HologramUpdate: '%minutes%m %seconds%s'
+Holograms:
+  Stats:
+    Line1: '&a%player% 的 &a%parkour% 跑酷数据'
+    Line2: '&a最佳成绩&7: &6%time%'
+  Top:
+    Header:
+      Line1: '&a&l跑酷成绩排行榜'
+      Line2: '&7- %parkour% -'
+    Body:
+      Line: '&e%position%. &a%player% &7- &6%time%'
+      NoTime: '&e%position%. &cN/A'
+      Loading: '&e%position%. &c加载中...'
+    Footer:
+      Line: '&a下次更新: &6%time%'
+      Updating: '&a下次更新: &c加载中...'
+  Plates:
+    Start:
+      Line1: '&e&l跑酷挑战'
+      Line2: '&f立刻开始!'
+    End:
+      Line1: '&e&l跑酷开始'
+      Line2: '&f到达终点!'
+    Checkpoint:
+      Line1: '&e&l检查点'
+      Line2: '&f#%checkpoint%'
+Messages:
+  NotInParkour: '&c你现在不在任何跑酷中..'
+  BlockedCommand: '&c你不能在跑酷中使用命令.'
+  Started: '&a跑酷开始了! 尽快到达终点吧!'
+  Fly: '&c跑酷过程中不允许飞行.'
+  Return: '&6正在返回跑酷起点...'
+  Checkpoint: '&a你在 &e%time% &a时到达了检查点 &e#%checkpoint%.'
+  ReturnCheckpoint: '&6正在返回检查点 &e#%checkpoint%'
+  NeedCheckpoint: '&c你需要到达所有检查点才能完成跑酷.'
+EndMessage:
+  FirstTime: '&6你完成了跑酷首通!'
+  Normal: '&6你完成了跑酷! 用时 &d%endTime%'
+  Record: '&6你成功打破了先前的纪录,少花了 &d%recordTime%'
+Titles:
+  Start:
+    Title: '&e跑酷挑战'
+    Subtitle: '&f现在开始'
+  Checkpoint:
+    Title: '&e检查点'
+    Subtitle: '&f#%checkpoint%'
+  End:
+    Title: '&e跑酷挑战'
+    Subtitle: '&f顺利完成'
